@@ -1,0 +1,189 @@
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “below is the key”,
+  $path = “[<1ZP#pnre13O>]”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
+$csvFile = “C:\fso\process.csv”,
+  $path = “C:\fso\process.xlsx”
+)
+$processes = Import-Csv -Path $csvFile
+$Excel = New-Object -ComObject excel.application
+$Excel.visible = $false
+$workbook = $Excel.workbooks.add()
+$excel.cells.item(1,1) = “name”
+$excel.cells.item(1,2) = “Virtual Memory”
+$excel.cells.item(1,3) = “Working Set”
+$excel.cells.item(1,4) = “Private Memory”
+$excel.cells.item(1,5) = “Non-paged memory”
+$i = 2
+foreach($process in $processes)
+{
+ $excel.cells.item($i,1) = $process.name
+ $excel.cells.item($i,2) = $process.vm
+ $excel.cells.item($i,3) = $process.ws
+ $excel.cells.item($i,4) = $process.pm
+ $excel.cells.item($i,5) = $process.npm
+ $i++
+} #end foreach process
+$workbook.saveas($path)
+$Excel.Quit()
+Remove-Variable -Name excel
+[gc]::collect()
+[gc]::WaitForPendingFinalizers()
